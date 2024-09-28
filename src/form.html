@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Form</title>
+    <link rel="stylesheet" href="Z:/Project/style/form.css">
+</head>
+<body>
+    <h1>Explore the world with Us</h1>
+
+    <br>
+    <nav>
+        <div class="navi">
+            <div> <a href="home.html">Home</a> </div>
+            <div> <a href="#">Destination</a> </div>
+            <div> <a href="#">Travel Tips</a> </div>
+            <div><a href="form.html"> Contact Us</a></div>
+        </div>
+    </nav>
+<h2>Contact Us</h2>
+<form action="/submit" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="ph">Contact Number:</label>
+    <input type="number" id="ph" name="ph" min="1000000000" max="9999999999">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <input type="submit" value="Submit">
+</form>
+
+<br><br>
+<footer>
+    <div>
+        <table id="foottd">
+            <tr>
+                <td>Contact Us </td>
+                <td>email : explore@tour.com<br>
+                    Mobile : 9513578450</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>&copy Explore the World with Us  All Rights Reserved Sep 2024</p>
+        
+    </div>
+</footer>
+
+</body>
+</html>
